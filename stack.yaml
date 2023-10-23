@@ -1,0 +1,12 @@
+# stack.yaml
+
+resolver: lts-18.4
+
+packages:
+- .
+
+scripts:
+  build: stack build
+  run: stack exec freenatalchart-exe 
+
+extra-deps: []
