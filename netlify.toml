@@ -1,6 +1,7 @@
 [build]
-  command = "nix-build --dry-run ./nix/release.nix"
+  command = "nix-shell shell.nix --run 'nix-build --dry-run ./nix/release.nix'"
   publish = "/opt/build/repo"
+
 
 [build.environment]
   GEOCODE_API_KEY = "AIzaSyB-qm3rnTxXDi5xM0ATr0wEDBv0gMuI41U"
