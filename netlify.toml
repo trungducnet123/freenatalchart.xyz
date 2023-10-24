@@ -1,3 +1,0 @@
-[build]
-  command = "nix-shell --run 'cabal build'"
-  publish = "dist-newstyle/build/x86_64-linux/ghc-8.10.4/your-project-name-0.1.0.0/x/your-project-name/build/your-project-name/your-project-name"
