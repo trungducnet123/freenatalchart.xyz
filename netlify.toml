@@ -1,2 +1,6 @@
+[build]
+  command = "nix-build --dry-run ./nix/release.nix"
+  publish = "/opt/build/repo"
+
 [build.environment]
-  NIX_PATH = "nixpkgs=https://nixos.org/channels/nixpkgs-unstable/nixexprs.tar.xz"
+  GEOCODE_API_KEY = "AIzaSyB-qm3rnTxXDi5xM0ATr0wEDBv0gMuI41U"
